@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="box">
+            <h1>Cadastro</h1>
+
+            <div class="register">
+                <div class="form-left">
+                    <label for="nome completo">Nome Completo</label>
+                    <input type="text" name="nome completo" id="nome completo" placeholder="Digite seu nome completo" required >
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="form-right">
+                    <label for="nome de usuario">Nome de Usuário</label>
+                    <input type="text" name="nome de usuario" id="nome de usuario" placeholder="Digite seu nome de usuário" required>
+
+                    <label for="numero de telefone">Número de Telefone</label>
+                    <input type="text" name="numero de telefone" id="numero de telefone" placeholder="Digite seu número de telefone" required>
+
+                    <label for="confirme sua senha">Confirme sua Senha</label>
+                    <input type="password" name="confirme sua senha" id="confirme sua senha" placeholder="Confirme sua senha" required>             
+                </div>
+            </div>
+
+            <div class="genero">
+                <div class="card">
+                    <h3>Gênero</h3>
+                </div>
+
+                <div class="option">
+                    <input type="radio" name="homem" value="homem">
+                    <label for="homem">Homem</label>
+
+                    <input type="radio" name="mulher" value="mulher">
+                    <label for="mulher">Mulher</label>
+
+                    <input type="radio" name="outro" value="outro">
+                    <label for="outro">Outro</label>
+                </div>
+            </div>
+
+            <button class="botao" type="submit">Registrar</button>
+        </div>
+    </section>
+</html>

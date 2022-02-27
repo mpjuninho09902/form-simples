@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.box{
+    width: 700px;   
+    height: 55vh;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box h1{
+    font-size: 2em;
+    padding: 20px 25px;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box .form-left,
+.box .form-right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.register input[type= "text"],
+.register input[type= "email"],
+.register input[type= "password"]{
+    width: 300px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.register input[type= "text"]:focus,
+.register input[type= "email"]:focus,
+.register input[type= "password"]:focus{
+    border: 1px solid #9b59b6;
+}
+
+.register label{
+   margin-bottom: 2px;
+   margin-top: 5px;
+}
+
+.genero .card h3{
+    padding: 10px 25px;
+}
+
+.genero .option {
+    padding: 10px 25px;
+}
+
+.botao {
+    width: 650px;
+    height: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 750px){
+    .box{
+        width: 400px;
+        height: 80vh;
+    }
+    .box h1{
+        margin-left: 24px;
+    }
+
+    .box .register{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box .form-left, .box .form-right{
+        margin-left: 24px;
+    }
+      
+
+    .botao{
+        width: 350px;
+    }
+
+    .genero{
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 420px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    section{
+        background-color: #fff;
+    }
+    
+    .box{
+        width: 420px;
+        height: 100%;
+        margin-left: 35px;
+        background: white
+    }
+
+    section{
+        background: white;
+    }
+
+    .register input[type= "text"],
+    .register input[type= "email"],
+    .register input[type= "password"]{
+        width: 200px;
+        height: 45px;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+
+    .genero {
+        font-size: 0.9em;
+    }
+
+    .botao{
+        width: 200px;
+        margin-left: 50px   ;
+    }
+
+}
