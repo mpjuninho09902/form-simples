@@ -13,6 +13,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [VSCode](https://code.visualstudio.com)
 - [Git](https://git-scm.com)
 
-## 🖼️ Imagens demonstrativas do projeto
+## 🖼️ Imagem demonstrativa do projeto
 
 <img src="https://raw.githubusercontent.com/gist/mpjuninho09902/aeba01868811dcfe73deaa1f5f3f9cb1/raw/343ca58fab3e12e186229bf7dcc38306208e3531/githubcard.svg">
